@@ -1,3 +1,4 @@
 # Поиск стран
 
-https://github.com/goitacademy/javascript-homework/blob/master/homework-12/assets/country-info.png
+![список стран](assets/country-list.png)
+![информация о стране](assets/country-info.png)

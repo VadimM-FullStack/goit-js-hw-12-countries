@@ -1,7 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
@@ -9,12 +5,60 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-image: url("./images/bg-pattern.png");
+}
 
-  /*
-   * CSS image reference example.
-   */
-  background-image: url('./images/bg-pattern.png');
+.container {
+  width: 46%;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.input-country {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 26px;
+  font-size: 30px;
+  border-radius: 6px;
+  color: rgb(58, 58, 58);
+}
+
+.input-country:hover,
+.input-country:focus {
+  border-color: #0088ff;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 59, 107, 0.075),
+    0 0 10px rgba(0, 140, 255, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 59, 107, 0.075),
+    0 0 10px rgba(0, 140, 255, 0.6);
+}
+
+.countries-list {
+  text-align: left;
+  font-size: 38px;
+}
+
+.country-name {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.country-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 38px;
+}
+
+.languages-item {
+  margin-left: 20px;
+}
+
+.country-flag {
+  width: 500px;
 }
